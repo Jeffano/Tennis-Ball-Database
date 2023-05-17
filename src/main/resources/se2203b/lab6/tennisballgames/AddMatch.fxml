@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="se2203b.lab6.tennisballgames.AddMatchController">
+   <children>
+      <Label layoutX="175.0" layoutY="163.0" text="Home Team" />
+      <Label layoutX="175.0" layoutY="221.0" text="Visitor Team" />
+      <ComboBox fx:id="homeTeamBox" layoutX="276.0" layoutY="159.0" prefWidth="150.0" />
+      <ComboBox fx:id="visitorTeamBox" layoutX="276.0" layoutY="217.0" prefWidth="150.0" />
+      <Label layoutX="276.0" layoutY="194.0" text="VS." />
+      <Label layoutX="172.0" layoutY="37.0" text="Add New Match Form">
+         <font>
+            <Font name="Arial Bold" size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="cancelBtn" layoutX="373.0" layoutY="318.0" mnemonicParsing="false" onAction="#cancel" text="Cancel" />
+      <Button fx:id="saveBtn" layoutX="450.0" layoutY="318.0" mnemonicParsing="false" onAction="#save" text="Save" />
+   </children>
+</AnchorPane>
