@@ -1,3 +1,6 @@
+Developed a database-driven application for managing summer T-ball teams, games, and scores. The application allows a recreation director to track team standings, game results, and update records as needed. It involves connecting to a Derby database, performing SQL operations to retrieve and modify data, and creating user interfaces for adding and managing team and match information.
+
+
 <img width="1031" alt="Tennis - 5" src="https://github.com/user-attachments/assets/56dc509e-43a2-499c-8d31-24918cac798d">
 <img width="1031" alt="Tennis - 4" src="https://github.com/user-attachments/assets/84053171-4fe6-41eb-9a33-5f07dcadf35c">
 <img width="1031" alt="Tennis - 3" src="https://github.com/user-attachments/assets/17598f36-90ef-45b9-a12e-81ba89c83e1a">
